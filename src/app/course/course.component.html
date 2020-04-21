@@ -1,0 +1,19 @@
+<form #courseFormId [formGroup]="courseForm">
+  <div class="ui-float-label">
+    <input formControlName="deptCode" id="deptCode" type="text" size="30" pInputText/>
+    <label for="deptCode">Department Code</label>
+  </div>
+  <div class="ui-float-label">
+    <input formControlName="courseNum" id="courseNum" type="text" size="30" pInputText/>
+    <label for="courseNum">Course Number</label>
+  </div>
+  <div class="ui-float-label">
+    <input formControlName="title" id="title" type="text" size="30" pInputText/>
+    <label for="title">Title</label>
+  </div>
+  <div class="ui-float-label">
+    <input formControlName="creditHours" id="creditHours" type="text" size="30" pInputText/>
+    <label for="creditHours">Credit Hours</label>
+  </div>
+</form>
+<button pButton type="button" label="Save" (click)="saveCourse()"></button>

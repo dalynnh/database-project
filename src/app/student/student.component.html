@@ -1,0 +1,15 @@
+<form #studentFormId [formGroup]="studentForm">
+  <div class="ui-float-label">
+    <input formControlName="studentId" id="studentId" type="text" size="30" pInputText/>
+    <label for="studentId">Student Id</label>
+  </div>
+  <div class="ui-float-label">
+    <input formControlName="studentName" id="studentName" type="text" size="30" pInputText/>
+    <label for="studentName">Student Name</label>
+  </div>
+  <div class="ui-float-label">
+    <input formControlName="major" id="major" type="text" size="30" pInputText/>
+    <label for="major">Major</label>
+  </div>
+</form>
+<button pButton type="button" label="Save" (click)="saveStudent()"></button>

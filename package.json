@@ -12,6 +12,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.1",
+    "@angular/cdk": "^9.2.1",
     "@angular/cli": "^9.1.1",
     "@angular/common": "~9.1.1",
     "@angular/compiler": "~9.1.1",
@@ -23,6 +24,8 @@
     "@angular/router": "~9.1.1",
     "express": "^4.17.1",
     "path": "^0.12.7",
+    "primeicons": "^2.0.0",
+    "primeng": "^9.0.5",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "typescript": "~3.8.3",
