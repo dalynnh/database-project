@@ -37,7 +37,7 @@ export class HomeComponent implements OnInit {
   }
 
   saveStudent(student: Student) {
-    this.homeService.saveStudent(student);
+    this.homeService.saveStudent(student).subscribe();
     this.functionCase = 0;
   }
 
@@ -46,7 +46,7 @@ export class HomeComponent implements OnInit {
   }
 
   saveCourse(course: Course) {
-    this.homeService.saveCourse(course);
+    this.homeService.saveCourse(course).subscribe();
     this.functionCase = 0;
   }
 
@@ -55,7 +55,7 @@ export class HomeComponent implements OnInit {
   }
 
   saveEnrollment(enrollment: Enrollment) {
-    this.homeService.saveEnrollment(enrollment);
+    this.homeService.saveEnrollment(enrollment).subscribe();
     this.functionCase = 0;
   }
 
