@@ -8,7 +8,7 @@ import { of } from 'rxjs';
 })
 export class HomeService {
 
-  baseUrl = 'localhost:8080';
+  baseUrl = 'https://database-project-ws.herokuapp.com';
 
   constructor(private http: HttpClient) { }
 
